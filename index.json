@@ -17,6 +17,28 @@
       "issuesUrl": "https://github.com/Fatalution/BS_IntendedExperience/issues",
       "versions": [
         {
+          "version": "0.3.2",
+          "gameVersions": ["1.44.1"],
+          "downloadUrl": "https://github.com/Fatalution/BS_IntendedExperience/releases/download/v0.3.2/IntendedExperience-0.3.2-bs1.44.1-3106107.zip",
+          "fileSizeBytes": 27284,
+          "hash": { "algorithm": "sha256", "value": "ef34b528a2a5b188990178d5acf3f5e3f7b48bf67b7f458449321a243bed27e9" },
+          "dependencies": ["beatmods:1", "beatmods:96", "beatmods:130", "beatmods:58"],
+          "files": [
+            { "path": "Plugins/IntendedExperience.dll", "hash": { "algorithm": "sha256", "value": "fa3299bbe186b4fdff2ce677c759fb7b91ffd77b69ce947caeddcd791f4644e9" } }
+          ]
+        },
+        {
+          "version": "0.3.2",
+          "gameVersions": ["1.40.8"],
+          "downloadUrl": "https://github.com/Fatalution/BS_IntendedExperience/releases/download/v0.3.2/IntendedExperience-0.3.2-bs1.40.8-3106107.zip",
+          "fileSizeBytes": 27288,
+          "hash": { "algorithm": "sha256", "value": "f5b1e93a7c2566f5ea5565258cc97ec4fcda248eeb3cd2499a3e1a7d0bec41e2" },
+          "dependencies": ["beatmods:1", "beatmods:96", "beatmods:130", "beatmods:58"],
+          "files": [
+            { "path": "Plugins/IntendedExperience.dll", "hash": { "algorithm": "sha256", "value": "4d2cb51c3523befabfe0545b2ff4f0f921f4d71b17ee05ee9f744df296ceed77" } }
+          ]
+        },
+        {
           "version": "0.3.1",
           "gameVersions": ["1.44.1"],
           "downloadUrl": "https://github.com/Fatalution/BS_IntendedExperience/releases/download/v0.3.1/IntendedExperience-0.3.1-bs1.44.1-f867296.zip",
