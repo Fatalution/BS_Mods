@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "fatalution",
+  "name": "Fatalution's mods",
+  "owner": "Fatalution",
+  "contactUrl": "https://github.com/Fatalution/BS_Mods/issues",
+  "infoUrl": "https://github.com/Fatalution/BS_Mods",
+  "packages": [
+    {
+      "id": "IntendedExperience",
+      "name": "Intended Experience",
+      "summary": "Automates player settings so GLS (v3/v4) lights and modcharts look the way the lighter made them.",
+      "description": "# Intended Experience\n\nAutomatically and temporarily sets effects, light color overrides and the BeatSaberPlus brightness override on a per-map basis to experience GLS maps and modcharts how they were intended.\n\nYour settings go back to normal after the map. For more info, check out the GitHub repository [README](https://github.com/Fatalution/BS_IntendedExperience#readme).\n\n**NOTE:** This mod only changes settings on GLS maps (v3/v4 environments, Weave and newer) and modcharts (Noodle Extensions, Mapping Extensions or Vivify).\n\n## Features\n\n- Separate settings for GLS maps and modcharts, each with:\n  - Enable All Effects → switches Off / No Flickering to All Effects\n  - Use Intended Colors → switches an All color override to Notes Only and turns on the map's SongCore environment colors\n  - Set Effects Brightness to 100% → resets BeatSaberPlus GameTweaker's brightness override\n- Hovering over the Play button shows what will change.\n- The IE button next to Play excludes a map.\n- Works with Heck's Settings Setter:\n  - Anything a map's Settings Setter controls is left to it.\n  - IE's changes are listed in its window to accept or decline.\n\n## Dependencies\n\n- BSIPA v4.3.0+\n- BeatSaberMarkupLanguage v1.14.1+ (v1.12.5+ on 1.40.8)\n- SiraUtil v3.3.1+ (v3.2.1+ on 1.40.8)\n- SongCore v3.16.0+ (v3.15.3+ on 1.40.8)\n- Optional: Heck for Settings Setter support, BeatSaberPlus GameTweaker for the brightness option",
+      "category": "lighting",
+      "author": "Fatalution",
+      "sourceUrl": "https://github.com/Fatalution/BS_IntendedExperience",
+      "issuesUrl": "https://github.com/Fatalution/BS_IntendedExperience/issues",
+      "versions": [
+        {
+          "version": "0.3.1",
+          "gameVersions": ["1.44.1"],
+          "downloadUrl": "https://github.com/Fatalution/BS_IntendedExperience/releases/download/v0.3.1/IntendedExperience-0.3.1-bs1.44.1-f867296.zip",
+          "fileSizeBytes": 26115,
+          "hash": { "algorithm": "sha256", "value": "db441876246529cf0858ff56e3695c5fd5ac57486aaba0ef5cd0fbb93489fd68" },
+          "dependencies": ["beatmods:1", "beatmods:96", "beatmods:130", "beatmods:58"],
+          "files": [
+            { "path": "Plugins/IntendedExperience.dll", "hash": { "algorithm": "sha256", "value": "b1ba946a7fea00db6d7df9f92f8d0eff5adcd07e83fcc138b0b6cf5ef9381b6b" } }
+          ]
+        },
+        {
+          "version": "0.3.1",
+          "gameVersions": ["1.40.8"],
+          "downloadUrl": "https://github.com/Fatalution/BS_IntendedExperience/releases/download/v0.3.1/IntendedExperience-0.3.1-bs1.40.8-f867296.zip",
+          "fileSizeBytes": 26133,
+          "hash": { "algorithm": "sha256", "value": "382887bd6998fd837e0242eb1b706bbcefcc2091ce1433a02b0f38e887f10a6a" },
+          "dependencies": ["beatmods:1", "beatmods:96", "beatmods:130", "beatmods:58"],
+          "files": [
+            { "path": "Plugins/IntendedExperience.dll", "hash": { "algorithm": "sha256", "value": "5c06f0f597504d294c75bfaca408056a2add5c4205965fba61567fd09710abbe" } }
+          ]
+        },
+        {
+          "version": "0.3.0",
+          "gameVersions": ["1.44.1"],
+          "downloadUrl": "https://github.com/Fatalution/BS_IntendedExperience/releases/download/v0.3.0/IntendedExperience-0.3.0-bs1.44.1-eeb2886.zip",
+          "fileSizeBytes": 24176,
+          "hash": { "algorithm": "sha256", "value": "9afa13bbff6ecb69773771cb418977b9566e2a3fb97b9e606c11d79e976cd333" },
+          "dependencies": ["beatmods:1", "beatmods:96", "beatmods:130", "beatmods:58"],
+          "files": [
+            { "path": "Plugins/IntendedExperience.dll", "hash": { "algorithm": "sha256", "value": "039139010c4aaf471509a3eae20e4fae0642cd51f473fb33c57cbcf8f685e4a5" } }
+          ]
+        },
+        {
+          "version": "0.3.0",
+          "gameVersions": ["1.40.8"],
+          "downloadUrl": "https://github.com/Fatalution/BS_IntendedExperience/releases/download/v0.3.0/IntendedExperience-0.3.0-bs1.40.8-eeb2886.zip",
+          "fileSizeBytes": 24180,
+          "hash": { "algorithm": "sha256", "value": "1e1fb6bbe3981b2d1c8f96c9a36b34c68e630616077d61947cddcaefb951f737" },
+          "dependencies": ["beatmods:1", "beatmods:96", "beatmods:130", "beatmods:58"],
+          "files": [
+            { "path": "Plugins/IntendedExperience.dll", "hash": { "algorithm": "sha256", "value": "c92028718fd03182dc3348fa96521aec550863e76bcda1641f27e989db35e107" } }
+          ]
+        },
+        {
+          "version": "0.2.0",
+          "gameVersions": ["1.44.1"],
+          "downloadUrl": "https://github.com/Fatalution/BS_IntendedExperience/releases/download/v0.2.0/IntendedExperience-0.2.0-bs1.44.1-a145519.zip",
+          "fileSizeBytes": 17380,
+          "hash": { "algorithm": "sha256", "value": "2740b8409d48cad37c41e8330bc60819d3d6a8a35d5ccee826d0f06898b25481" },
+          "dependencies": ["beatmods:1", "beatmods:96", "beatmods:130", "beatmods:58"],
+          "files": [
+            { "path": "Plugins/IntendedExperience.dll", "hash": { "algorithm": "sha256", "value": "510952b43ece9d16ee6e4742a0f8664b0c22d5902c933d14e86f7c97a20ce634" } }
+          ]
+        },
+        {
+          "version": "0.1.0",
+          "gameVersions": ["1.44.1"],
+          "downloadUrl": "https://github.com/Fatalution/BS_IntendedExperience/releases/download/v0.1.0/IntendedExperience-0.1.0-bs1.44.1-6208375.zip",
+          "fileSizeBytes": 15409,
+          "hash": { "algorithm": "sha256", "value": "c3a89112640b28f8042ad6474eab79cfb6d758b00a0054fae1bca3dfdfcc4fc4" },
+          "dependencies": ["beatmods:1", "beatmods:96", "beatmods:130", "beatmods:58"],
+          "files": [
+            { "path": "Plugins/IntendedExperience.dll", "hash": { "algorithm": "sha256", "value": "ae4aff563e9523b51e6800b59fdddc77ccd3f4af6414e10a85e5db0353fa2866" } }
+          ]
+        }
+      ]
+    }
+  ]
+}
