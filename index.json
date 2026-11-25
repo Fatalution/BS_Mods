@@ -9,14 +9,47 @@
     {
       "id": "IntendedExperience",
       "name": "IntendedExperience",
-      "summary": "Automates player settings so GLS (v3/v4) lights and modcharts look the way the lighter made them.",
-      "description": "# IntendedExperience\n\nAutomatically and temporarily sets effects, light color overrides and the BeatSaberPlus brightness override on a per-map basis to experience GLS maps and modcharts how they were intended.\n\nYour settings go back to normal after the map. For more info, check out the GitHub repository [README](https://github.com/Fatalution/BS_IntendedExperience#readme).\n\n**NOTE:** This mod only changes settings on GLS maps (v3/v4 environments, Weave and newer) and modcharts (Noodle Extensions, Mapping Extensions or Vivify).\n\n## Features\n\n- Separate settings for GLS maps and modcharts, each with:\n  - Enable All Effects → switches Off / No Flickering to All Effects\n  - Use Intended Colors → switches an All color override to Notes Only and turns on the map's SongCore environment colors\n  - Set Effects Brightness to 100% → resets BeatSaberPlus GameTweaker's brightness override\n- Hovering over the Play button shows what will change.\n- The IE button next to Play excludes a map.\n- Works with Heck's Settings Setter:\n  - Anything a map's Settings Setter controls is left to it.\n  - IE's changes are listed in its window to accept or decline.\n\n## Dependencies\n\n- BSIPA v4.3.0+\n- BeatSaberMarkupLanguage v1.14.1+ (v1.12.5+ on 1.40.8)\n- SiraUtil v3.3.1+ (v3.2.1+ on 1.40.8)\n- SongCore v3.16.0+ (v3.15.3+ on 1.40.8)\n- Optional: Heck for Settings Setter support, BeatSaberPlus GameTweaker for the brightness option",
+      "summary": "Automates player settings so GLS (v3/v4) lights, Chroma maps and modcharts look the way the mapper made them.",
+      "description": "# IntendedExperience\n\nAutomatically and temporarily sets effects, light color overrides, the environment and the BeatSaberPlus brightness override on a per-map basis to experience GLS maps, Chroma maps and modcharts how they were intended.\n\nYour settings go back to normal after the map. For more info, check out the GitHub repository [README](https://github.com/Fatalution/BS_IntendedExperience#readme).\n\n**NOTE:** This mod only changes settings on GLS maps (v3/v4 environments, Weave and newer), Chroma maps and modcharts (Noodle Extensions, Mapping Extensions or Vivify).\n\n## Features\n\n- Separate settings for GLS maps, modcharts and Chroma maps, each with:\n  - Enable All Effects → switches Off / No Flickering to All Effects\n  - Use Map Environment → turns off your environment override for the map\n  - Use Intended Colors → switches an All color override to Notes Only and turns on the map's SongCore environment colors (not needed on Chroma maps)\n  - Set Effects Brightness to 100% → resets BeatSaberPlus GameTweaker's brightness override\n- The song browser tab shows the map type (GLS, Modchart, Chroma or Legacy, and whether it's ranked) and what will change.\n- Hovering over the Play button shows what will change.\n- The IE button next to Play excludes a map.\n- Works with Heck's Settings Setter:\n  - Anything a map's Settings Setter controls is left to it.\n  - IE's changes are listed in its window to accept or decline.\n- In BeatSaberPlus Multiplayer+ lobbies, the map's Settings Setter and IE's changes are applied without asking.\n\n## Dependencies\n\n- BSIPA v4.3.0+\n- BeatSaberMarkupLanguage v1.14.1+ (v1.12.5+ on 1.40.8, v1.6.10+ on 1.29.1)\n- SiraUtil v3.3.1+ (v3.2.1+ on 1.40.8, v3.1.2+ on 1.29.1)\n- SongCore v3.16.0+ (v3.15.3+ on 1.40.8, v3.11.1+ on 1.29.1)\n- Optional: Heck for Settings Setter support, Chroma for Chroma maps, BeatSaberPlus GameTweaker for the brightness option, BeatSaberPlus Multiplayer+ for lobbies\n\n1.29.1 is supported by 0.4.0 only and won't get further updates.",
       "iconUrl": "https://raw.githubusercontent.com/Fatalution/BS_Mods/main/icons/IntendedExperience.webp",
       "category": "lighting",
       "author": "Fatalution",
       "sourceUrl": "https://github.com/Fatalution/BS_IntendedExperience",
       "issuesUrl": "https://github.com/Fatalution/BS_IntendedExperience/issues",
       "versions": [
+        {
+          "version": "0.4.0",
+          "gameVersions": ["1.44.1"],
+          "downloadUrl": "https://github.com/Fatalution/BS_IntendedExperience/releases/download/v0.4.0/IntendedExperience-0.4.0-bs1.44.1-0c7692a.zip",
+          "fileSizeBytes": 36301,
+          "hash": { "algorithm": "sha256", "value": "dc9530afdd753201c9814b3202de581c725aff3330d55f21df4b634a3abcf8d1" },
+          "dependencies": ["beatmods:1", "beatmods:96", "beatmods:130", "beatmods:58"],
+          "files": [
+            { "path": "Plugins/IntendedExperience.dll", "hash": { "algorithm": "sha256", "value": "0818ab95e6f342359086591463cfa061c16f7cb7a59551620172520af2bf6a63" } }
+          ]
+        },
+        {
+          "version": "0.4.0",
+          "gameVersions": ["1.40.8"],
+          "downloadUrl": "https://github.com/Fatalution/BS_IntendedExperience/releases/download/v0.4.0/IntendedExperience-0.4.0-bs1.40.8-0c7692a.zip",
+          "fileSizeBytes": 36291,
+          "hash": { "algorithm": "sha256", "value": "f831fc20663fda857d6688613bb1ff8b80492ba15fcda2e014cba326c7a38164" },
+          "dependencies": ["beatmods:1", "beatmods:96", "beatmods:130", "beatmods:58"],
+          "files": [
+            { "path": "Plugins/IntendedExperience.dll", "hash": { "algorithm": "sha256", "value": "88a9550bd17ff38046c3ce999312040a791bff0d3b1daaf06fc8e0375e6ffb22" } }
+          ]
+        },
+        {
+          "version": "0.4.0",
+          "gameVersions": ["1.29.1"],
+          "downloadUrl": "https://github.com/Fatalution/BS_IntendedExperience/releases/download/v0.4.0/IntendedExperience-0.4.0-bs1.29.1-0c7692a.zip",
+          "fileSizeBytes": 37188,
+          "hash": { "algorithm": "sha256", "value": "b312c7dfff6acfde51903a48f5b1358d7fa7e1c7c5b5ba34e54c151097ae1d21" },
+          "dependencies": ["beatmods:1", "beatmods:96", "beatmods:130", "beatmods:58"],
+          "files": [
+            { "path": "Plugins/IntendedExperience.dll", "hash": { "algorithm": "sha256", "value": "4f2899a9694ea2d3252f05198f23620b1fe8601c462de32c14f70db66232a1d4" } }
+          ]
+        },
         {
           "version": "0.3.2",
           "gameVersions": ["1.44.1"],

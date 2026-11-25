@@ -16,4 +16,4 @@ encore://add-source?url=https://raw.githubusercontent.com/Fatalution/BS_Mods/mai
 
 | Mod | Game versions |
 |---|---|
-| [Intended Experience](https://github.com/Fatalution/BS_IntendedExperience) | 1.44.1, 1.40.8 |
+| [Intended Experience](https://github.com/Fatalution/BS_IntendedExperience) | 1.44.1, 1.40.8, 1.29.1 (0.4.0 only) |
